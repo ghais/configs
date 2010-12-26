@@ -23,3 +23,7 @@ export HISTCONTROL=erasedups
 export HISTSIZE=10000
 # append to bash_history if Terminal.app quits
 shopt -s histappend
+
+#Growl
+alias growl="growlnotify -m"
+alias ding="growlnotify -m Ding"
