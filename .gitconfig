@@ -1,0 +1,28 @@
+[reviewboard]
+   url = http://reviewboard
+[user]
+	name = FIX_ME
+	email = FIX_ME
+[core]
+	editor = emacs
+[alias]
+	co = checkout
+[github]
+	user = FIX_ME
+	token = FIX_ME
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
